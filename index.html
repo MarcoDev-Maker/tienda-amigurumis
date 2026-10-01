@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amigurumis Regi 🧶 | Hechos a mano con amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">🧶 Amigurumis Regi</a>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menú">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="inicio" class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <h1>Amigurumis hechos a mano, con <span class="highlight">mucho amor</span> 🧶</h1>
+        <p>Piezas únicas tejidas con dedicación. Perfectas para regalar o consentirte. Pide el tuyo por WhatsApp 💌</p>
+        <a href="#catalogo" class="btn btn--primary">Ver catálogo</a>
+      </div>
+      <div class="hero__image">
+        <div class="blob"></div>
+        <span class="emoji-float e1">🧸</span>
+        <span class="emoji-float e2">🐰</span>
+        <span class="emoji-float e3">🦄</span>
+        <span class="emoji-float e4">🐙</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATÁLOGO ===== -->
+  <section id="catalogo" class="catalogo">
+    <div class="container">
+      <h2 class="section-title">Nuestro catálogo</h2>
+      <p class="section-sub">Cada amigurumi es único, hecho especialmente para ti ✨</p>
+
+      <div class="grid" id="grid-productos">
+        <!-- Las tarjetas se generan desde app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section id="contacto" class="contacto">
+    <div class="container contacto__inner">
+      <h2 class="section-title">¿Hablamos? 💬</h2>
+      <p>Escríbenos por WhatsApp para pedidos personalizados, tiempos de entrega o cualquier duda.</p>
+      <a href="https://wa.me/5212462416097?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20los%20amigurumis%20%F0%9F%A7%B6"
+         target="_blank" class="btn btn--whatsapp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.94 11.94 0 0 0 12.05 0C5.5 0 .17 5.33.17 11.88c0 2.09.55 4.13 1.6 5.93L0 24l6.34-1.66a11.9 11.9 0 0 0 5.7 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.23-6.15-3.41-8.43zM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.76.98 1-3.66-.23-.38a9.87 9.87 0 0 1-1.51-5.27c0-5.45 4.44-9.88 9.9-9.88 2.64 0 5.13 1.03 7 2.9a9.82 9.82 0 0 1 2.9 6.99c0 5.45-4.44 9.89-9.9 9.89zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>
+        Escribir por WhatsApp
+      </a>
+      <div class="redes">
+        <a href="#" aria-label="Instagram">📷 Instagram</a>
+        <a href="#" aria-label="Facebook">👍 Facebook</a>
+        <a href="#" aria-label="TikTok">🎵 TikTok</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Amigurumis Regi · Hecho con 🧶 y ❤️</p>
+  </footer>
+
+  <!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
+  <a href="https://wa.me/5212462416097?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20los%20amigurumis%20%F0%9F%A7%B6"
+     target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.94 11.94 0 0 0 12.05 0C5.5 0 .17 5.33.17 11.88c0 2.09.55 4.13 1.6 5.93L0 24l6.34-1.66a11.9 11.9 0 0 0 5.7 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.23-6.15-3.41-8.43z"/></svg>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
